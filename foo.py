@@ -8,5 +8,11 @@ class Cat:
         self.name = name
         print("Hello! My name is", self.name)
 
+    def meow(self):
+        print(self.name, "says MEOW!")
+
 bob = Cat()
 charlie = Cat(name="Charlie")
+
+bob.meow()
+charlie.meow()
