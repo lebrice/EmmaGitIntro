@@ -16,3 +16,17 @@ charlie = Cat(name="Charlie")
 
 bob.meow()
 charlie.meow()
+
+class Dog:
+    def __init__(self, name: str="Bobby"):
+        self.name = name
+        print("Hello! My name is", self.name)
+
+    def bark(self):
+        print(self.name, "says WOOF!")
+
+bobby = Dog()
+riley = Dog(name="Riley")
+
+bobby.bark()
+riley.bark()
